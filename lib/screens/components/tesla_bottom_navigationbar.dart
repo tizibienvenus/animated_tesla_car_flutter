@@ -39,4 +39,5 @@ List<String> navIconSrc = [
   "assets/icons/Charge.svg",
   "assets/icons/Temp.svg",
   "assets/icons/Tyre.svg",
+  //"assets/icons/info.svg",
 ];

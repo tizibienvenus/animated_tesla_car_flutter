@@ -83,7 +83,7 @@ class TempDetails extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Inside".toUpperCase(),
+                    "Outside".toUpperCase(),
                     style: TextStyle(color: Colors.white54),
                   ),
                   Text(

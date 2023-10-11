@@ -130,6 +130,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
           _batteryAnimationController,
           _tempAnimationController,
           _tyreAnimationController,
+          _tempAnimationController,
         ]),
         builder: (context, _) {
           return Scaffold(
@@ -149,6 +150,14 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   _tyreAnimationController.forward();
                 else if (_controller.selectedBottomTab == 3 && index != 3)
                   _tyreAnimationController.reverse();
+                
+                /*
+                if (index == 4)
+                  _tempAnimationController.forward();
+                else if (_controller.selectedBottomTab == 4 && index != 4)
+                  _tempAnimationController.reverse();
+                  */
+
 
                 _controller.showTyreController(index);
                 _controller.tyreStatusController(index);
